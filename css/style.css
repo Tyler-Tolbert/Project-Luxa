@@ -545,7 +545,7 @@ p {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-auto-rows: minmax(200px, auto);
-		grid-gap: 3em;
+		grid-column-gap: 1em;
 	}
 
 	#section-c .content-group-2 .input-text {
