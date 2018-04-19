@@ -545,10 +545,10 @@ p {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-auto-rows: minmax(200px, auto);
-		grid-column-gap: 1em;
+		grid-column-gap: 3em;
 	}
 
-	#section-c .content-group-2 .input-text {
+	#section-c .input-text {
 		margin-left: 0;
 	}
 
