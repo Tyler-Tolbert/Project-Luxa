@@ -1,0 +1,568 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+body {
+	font-family: ;
+	color: #3B3A3A;
+	background-color: #F1F1F1;
+	text-align: center;
+}
+
+p {
+	line-height: 1.7em;
+	color: #7e7e7e;
+}
+
+
+
+
+/* ===================================== 
+   Showcase
+======================================== */
+
+#showcase .content-wrap {
+	background: url('../img/luxaflex_bg_001.jpg') center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+}
+
+#showcase h1 {
+	color: #f1f1f1;
+	font-size: 4em;
+}
+
+#showcase .content-title {
+	padding-top: 8%;
+	padding-left: 10%;
+	text-align: left;
+}
+
+#showcase nav .navbar-nav {
+	padding-bottom: .7em;
+	margin-top: 1em;
+}
+
+#showcase .nav-link {
+	color: #333;
+	font-weight: bold;
+	float: right;
+
+}
+
+#showcase .btn {
+	margin-bottom: 1em;
+	margin-top: .3em;
+	border: #333 2px solid;
+	border-radius: 1px;
+	color: #333;
+	font-weight: bold;
+	background-color: #F1F1F1;
+	padding: .4em 2em;
+	float: right;
+}
+
+#showcase .btn:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+
+/* ===================================== 
+   Section A
+======================================== */
+
+#section-a .content-title {
+	padding-bottom: 2em;
+}
+
+#section-a h3 {
+	font-size: 1.5em;
+}
+
+#section-a .content-card {
+	background-color: #fff;
+	padding: 2em;
+	margin-bottom: 2em;
+}
+
+#section-a .card-1,
+#section-a .card-2 {
+	margin-top: 3em;
+}
+
+#section-a .content-quote {
+	font-size: 1.8em;
+	padding: 1em;
+	font-style: italic;
+	color: #7E7E7E;
+	margin: 1em 0;
+}
+
+#section-a .btn {
+	color: #fff;
+	background-color: #6FADBF;
+}
+
+#section-a .p1 {
+	background: url("../img/luxa_img_001.jpg") no-repeat center;
+	background-size: cover;
+	height: 25em;
+}
+
+#section-a .p2 {
+	background: url("../img/luxa_img_002.jpg") no-repeat center;
+	background-size: cover;
+	height: 30em;
+}
+
+#section-a .p3 {
+	background: url("../img/luxa_img_003.jpg") no-repeat center;
+	background-size: cover;
+	height: 30em;
+}
+
+
+
+/* ===================================== 
+   Section B
+======================================== */
+
+#section-b .content-wrap {
+	display: grid;
+	grid-auto-columns: ;
+}
+
+#section-b .p4 {
+	background: url("../img/luxa_img_004.jpg") no-repeat center;
+	background-size: cover;
+	height: 25em;
+}
+
+#section-b .p5 {
+	background: url("../img/luxa_img_005.jpg") no-repeat center;
+	background-size: cover;
+	height: 20em;
+}
+
+#section-b .p6 {
+	background: url("../img/luxa_img_006.jpg") no-repeat center;
+	background-size: cover;
+	height: 20em;
+}
+
+#section-b .p7 {
+	background: url("../img/luxa_img_007.jpg") no-repeat center;
+	background-size: cover;
+	height: 35em;
+}
+
+#section-b .picture {
+	transition: .2s ease-in;
+}
+
+#section-b .picture:hover {
+	transform: scale(.95);
+}
+
+
+/* ===================================== 
+   Section C
+======================================== */
+
+#section-c .content-wrap {
+	background-color: #4B4E4E;
+	color: #fff;
+	padding-top: 3em;
+	padding-bottom: 2.5em;
+}
+
+#section-c .jumbotron {
+	background-color: #4B4E4E;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#section-c .content-group {
+	margin-bottom: 3em;
+}
+
+#section-c p {
+	color: #D4D4D4;
+	padding-bottom: 1em;
+}
+
+/* Consultation Form */
+
+#section-c .contact-form {}
+
+#section-c .input-box {
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 1em;
+	font-size: .9em;
+}
+
+#section-c .input {
+	position: relative;
+	width: 75%;
+	height: 2em;
+	background: transparent;
+	border: 1px solid #797C7C;
+	outline: none;
+	font-size: 1.2em;
+	color: #fff;
+	padding-left: .3em;
+	padding-right: .3em;
+}
+
+#section-c .input-text {
+	position: ;
+	line-height: 2em;
+	font-size: 1.2em;
+	margin-bottom: .3em;
+}
+
+#section-c .input-title {
+	width: 25%;
+}
+
+#section-c .submit .link {
+	background: transparent;
+	border: 2px solid #D4D4D4;
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+	margin-top: 1em;
+	padding: 1em 5em;
+	transition: .2s ease-in-out;
+}
+
+#section-c .submit .link:hover {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+#section-c .content-area .checkbox {
+	opacity: 0;
+	cursor: pointer;
+}
+
+#section-c .content-group-2 .content-area {
+	margin-top: 2em;
+	font-weight: 600;
+}
+
+#section-c .checkbox {
+	height: 1.5em;
+	width: 1.5em;
+	border: solid #fff;
+
+}
+
+#section-c .checkbox:after {
+	border: solid #fff;
+}
+
+
+
+/* ===================================== 
+   Footer
+======================================== */
+
+#main-footer {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+#main-footer .logo {
+	margin-bottom: 1.5em;
+}
+
+#main-footer h3 {
+	font-size: 1.6em;
+	margin-bottom: 1em;
+}
+
+/* ===================================== 
+   Media Queries
+======================================== */
+
+@media (min-width: 768px) {
+
+
+	/*	Showcase */
+	#showcase .content-title h1 {
+		margin-top: ;
+	}
+
+
+
+	/*	Section A */
+	#section-a .picture {
+		height: 30em;
+		width: 70%
+	}
+
+	#section-a .picture-wrap {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	#section-a .p1 {
+		margin: auto;
+	}
+
+	#section-a .p2 {
+		margin: auto;
+	}
+
+	#section-a .p3 {
+		margin: auto;
+	}
+
+	#section-a .content-quote {
+		margin: 1.5em 4em;
+	}
+
+	#section-a .content-card {
+		width: 100%;
+		margin: 4em auto;
+	}
+
+	#section-a .card-1 {
+		padding: 10%;
+	}
+
+
+
+	/*	Section B */
+	#section-b .content-wrap {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: minmax(300px, auto);
+	}
+
+
+	#section-b .picture {
+		height: 30em;
+	}
+
+
+	/*	Section C */
+	#section-c .input-text {
+		display: inline;
+		float: left;
+		margin-left: 3%;
+	}
+
+	#section-c .input-box {
+		text-align: right;
+		padding-right: 3%;
+		margin-bottom: 1.5em;
+	}
+
+	#section-c .content-area {
+		padding: 0 10%;
+	}
+
+	#section-c .input-title {
+		width: 20%;
+		margin-right: 55%;
+	}
+
+}
+
+
+/****************************************************/
+
+@media (min-width: 992px) {
+
+	#showcase .nav-link {
+		font-weight: bold;
+		color: #333;
+		margin: 0 2em 0 0;
+		font-size: .9em;
+	}
+
+	#showcase .btn {
+		margin-bottom: 0;
+	}
+
+	#showcase h1 {
+		padding-top: 5em;
+	}
+
+
+	/*	Section A */
+	#section-a h3 {
+		font-weight: bold;
+	}
+
+	#section-a .card-group {
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-auto-rows: minmax(200px, auto);
+		grid-gap: ;
+
+		margin-bottom: 1em;
+	}
+
+	#section-a {}
+
+	#section-a .card-1 {
+		margin: ;
+		padding: ;
+		box-shadow: 465px 0px 0px #6FADBF;
+
+		grid-column: 1;
+	}
+
+	#section-a .content-quote {
+		width: 100%;
+		margin: auto;
+	}
+
+	#section-a .p1 {
+		width: 97%;
+		margin-top: 5em;
+		margin-left: 0%;
+	}
+
+	#section-a .p2 {
+		width: 90%;
+		height: 40em;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	/*
+	#section-a .blue1 {
+		background-color: #6FADBF;
+		height: 30em;
+		
+		grid-column: 6/11;
+*/
+	#section-a .picture-wrap {
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-auto-rows: minmax(200px, auto);
+	}
+
+	#section-a .card-group-2 {
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-auto-rows: minmax(200px, auto);
+	}
+
+	#section-a .card-2 {
+		padding: 4em;
+		padding-right: ;
+		grid-column: 1;
+		grid-row: 1;
+		box-shadow: 485px 90px 0px -70px #6FADBF;
+	}
+
+	#section-a .p3 {
+		grid-column: 2;
+		grid-row: 1;
+		width: 70%;
+		margin-bottom: 14%;
+		z-index: 1;
+	}
+
+	/*	Section B */
+	#section-b .content-wrap {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-auto-rows: minmax(150px, auto);
+	}
+
+	#section-b .p4 {
+		grid-column: 1/6;
+		grid-row: 1/3;
+	}
+
+	#section-b .p5 {
+		grid-column: 6/9;
+		grid-row: 1/2;
+		height: auto;
+
+	}
+
+	#section-b .p6 {
+		grid-column: 6/9;
+		grid-row: 2/3;
+		height: auto;
+	}
+
+	#section-b .p7 {
+		grid-column: 9/13;
+		grid-row: 1/3;
+	}
+
+	/*	Section C */
+	#main-footer .content-wrap {
+		/*
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: ;
+*/
+	}
+
+	#main-footer .logo {
+		float: left;
+	}
+
+	#main-footer .footer-note {
+		float: right;
+		margin-bottom: 1em;
+	}
+
+}
+
+
+/****************************************************/
+
+@media (min-width: 1200px) {
+
+
+	/*	Section A */
+	#section-a .card-1 {
+		box-shadow: 555px 0px 0px #6FADBF;
+	}
+
+	#section-a .card-2 {
+		box-shadow: 580px 95px 0px -90px #6FADBF;
+	}
+
+	/*	Section B */
+	/*	Section C */
+	#section-c .content-form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: minmax(200px, auto);
+		grid-gap: 3em;
+	}
+
+	#section-c .content-group-2 .input-text {
+		margin-left: 0;
+	}
+
+	#section-c .content-area p {
+		text-align: left;
+	}
+
+	#section-c .content-area {
+		padding-left: 0;
+		padding-right: 30%;
+	}
+
+	#section-c .submit {
+		float: left;
+	}
+
+}
